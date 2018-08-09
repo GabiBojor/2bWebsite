@@ -102,10 +102,15 @@
 		margin: 0 auto;
 	}
 
-	.home-banner {
-		overflow: hidden;
-		position: relative;
+	.home-banner{
 		height: 100vh;
+		background-image: url('../images/banner.jpg');
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		overflow: hidden;
 	}
 	.header-text {
 		color: white;
