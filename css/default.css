@@ -20,6 +20,9 @@
 	.collapse.navbar-collapse{
 		display: block;
 	}
+	.container-fluid, .navbar{
+		padding: 0;
+	}
 	#nav {
 		display: block;
 	}
