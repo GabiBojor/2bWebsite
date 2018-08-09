@@ -1,0 +1,114 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  color: #fff;
+  text-align: center;
+
+}
+img{
+max-width: 100%;
+}
+
+/* navbar */
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #244859 !important;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-brand{
+  width: 18%;
+}
+
+/* HOME BANNER */
+.header-2b {
+  top: 30%;
+  position: absolute;
+  width: 25%;
+}
+
+.header-2b img{
+  /* -webkit-filter: drop-shadow(20px 20px 20px #333); */
+    /* filter:drop-shadow(4px 4px 4px #333); */
+}
+
+.header-text{
+  color: white;
+  position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+  right: 100px;
+  text-align: left;
+  margin-left: 300px;
+}
+
+.header-text h2{
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.home-banner{
+  height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('/images/banner.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+/* Butoane */
+.btn{
+  padding: 5px 40px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 500 !important;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.btn:hover{
+  background: white;
+  color: #58B3DF;
+}
