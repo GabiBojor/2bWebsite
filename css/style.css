@@ -110,6 +110,9 @@ CUSTOM ELEMENTS
 	background-size: cover;
 	overflow: hidden;
 }
+.home-banner .v-align{
+	overflow: hidden;
+}
 .header-text {
     color: white;
     text-align: left;
