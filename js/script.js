@@ -6,6 +6,7 @@ var TxtType = function(el, toRotate, period) {
         this.txt = '';
         this.tick();
         this.isDeleting = false;
+
     };
 
     TxtType.prototype.tick = function() {
@@ -41,13 +42,13 @@ var TxtType = function(el, toRotate, period) {
 
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
+        for (var i=0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
-           
+
         }
         // INJECT CSS
         var css = document.createElement("style");
