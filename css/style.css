@@ -55,25 +55,10 @@ max-width: 100%;
 }
 
 /* HOME BANNER */
-.header-2b {
-  top: 30%;
-  position: absolute;
-  width: 25%;
-}
-
-.header-2b img{
-  /* -webkit-filter: drop-shadow(20px 20px 20px #333); */
-    /* filter:drop-shadow(4px 4px 4px #333); */
-}
 
 .header-text{
   color: white;
-  position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-  right: 100px;
   text-align: left;
-  margin-left: 300px;
 }
 
 .header-text h2{
@@ -92,7 +77,8 @@ max-width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover
+  background-size: cover;
+  overflow: hidden;
 }
 
 /* Butoane */
