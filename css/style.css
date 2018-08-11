@@ -68,7 +68,7 @@
 		width: 200px;
 		transition: 0.5s all ease;
 	}
-	
+
 	.scrolled-top .logo img {
 		transition: 0.5s all ease;
 	}
@@ -106,8 +106,8 @@
 		transition: 0.5s all ease;
 	}
 	.scrolled-top #main_nav{
-transition: 0.5s all ease;
-top: 13px;
+		transition: 0.5s all ease;
+		top: 13px;
 	}
 	ul#nav > li > a, ul#nav_mobile > li > a {
 		color: #fff !important;
@@ -165,6 +165,16 @@ top: 13px;
 	.home-banner .btn{
 		margin-top: 20px;
 	}
+	/*-- about --*/
+	.team_member {
+		min-height: 75vh;
+	}
+	.team_member > div {
+		min-height: 75vh;
+	}
+	.team_member .v-align {
+		padding: 0 100px;
+	}
 	.team_name {
 		font-weight: bold;
 		color: #56b3df;
@@ -180,28 +190,38 @@ top: 13px;
 	.team_info {
 		font-size: 24px;
 		line-height: 34px;
+		margin-top: 10px;
 	}
-	.team_poto {
+	.team_photo {
 		width: auto;
-		height: 500px;
+		height: 600px;
+		position: absolute;
+		bottom: 0;
 	}
-	.edge::before {
-		border-color: white #56b3df;
-		border-style: solid;
 
+	.edge::before {
 		content: "";
 		position: absolute;
 		top: 0;
-		transition: all 0.2s ease 0s;
+		background: url(../images/edge-bg.png);
+		width: 1000px;
+		height: 75vh;
+		background-size: cover;
 		z-index: -2;
 	}
 	.edge-left::before {
 		left: 0;
-		border-width: 500px 0 0 500px;
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
 	}
 	.edge-right::before {
 		right: 0;
-		border-width: 500px 500px 0 0;
+	}
+	.edge-left .team_photo {
+		right: 0;
+	}
+	.edge-right .team_photo {
+		left: 0;
 	}
 
 
