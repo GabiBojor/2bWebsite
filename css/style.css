@@ -91,7 +91,11 @@
 	/*------
 	FOOTER 
 	------*/
-
+.footer-wrapper {
+    color: #fff;
+    padding: 20px 15px;
+    background: #244859;
+}
 
 
 
@@ -135,22 +139,23 @@
 		max-width: 100%;
 		margin: 0 auto;
 	}
-
-	.home-banner{
-		height: 100vh;
-		background-image: url('../images/banner.jpg');
-		background-position: center center;
+.banner{
+	background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
+		background-size: cover !important;
+		background-repeat: no-repeat;
+		height: 100vh;
+}
+	.home-banner{
+		background-image: url('../images/banner.jpg');
 	}
 	.home-banner .v-align{
 		overflow: hidden;
 	}
 	.header-text {
 		color: white;
-		text-align: left;
 		padding: 40px 0;
 	}
 	.header-text h2 {
@@ -165,36 +170,52 @@
 	.home-banner .btn{
 		margin-top: 20px;
 	}
+
 	/*-- about --*/
+	.about-banner{
+		background: url(../images/about-us.png);
+	}
+	.about-banner h2{
+		font-weight: bold;
+	}
+	.about-banner p{
+		width: 760px;
+		max-width: 100%;
+		margin: 0 auto;
+		font-size: 24px;
+		line-height: 34px;
+		margin: 20px auto 0;
+	}
 	.team_member {
-		min-height: 75vh;
+		min-height: 100vh;
 	}
 	.team_member > div {
-		min-height: 75vh;
+		min-height: 100vh;
 	}
 	.team_member .v-align {
 		padding: 0 100px;
 	}
 	.team_name {
-		font-weight: bold;
-		color: #56b3df;
-		text-transform: capitalize;
-		font-size: 68px;
-		line-height: 78px;
-	}
+    font-weight: bold;
+    color: #56b3df;
+    text-transform: capitalize;
+    font-size: 55px;
+    line-height: 65px;
+}
 	.team_function{
 		color: #56b3df;
 		font-size: 30px;
 		line-height: 40px;
 	}
-	.team_info {
-		font-size: 24px;
-		line-height: 34px;
-		margin-top: 10px;
-	}
+.team_info {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 25px;
+    width: 750px;
+}
 	.team_photo {
 		width: auto;
-		height: 600px;
+		height: 800px;
 		position: absolute;
 		bottom: 0;
 	}
@@ -205,7 +226,7 @@
 		top: 0;
 		background: url(../images/edge-bg.png);
 		width: 1000px;
-		height: 75vh;
+		height: 100vh;
 		background-size: cover;
 		z-index: -2;
 	}
