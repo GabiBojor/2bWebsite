@@ -5,6 +5,9 @@
 	.logo img{
 		width: auto;
 	}
+	.row{
+		margin: 0;
+	}
 	.center{
 		text-align: center;
 	}
