@@ -61,6 +61,8 @@
 	}
 	.logo{
 		display: inline-block;
+		vertical-align: middle;
+		transition: 0.5s all ease;
 	}
 	.logo img {
 		width: 200px;
@@ -68,17 +70,19 @@
 	}
 	
 	.scrolled-top .logo img {
-		width: 180px;
 		transition: 0.5s all ease;
 	}
 	.scrolled-nav {
 		display: none;
+		transition: 0.5s all ease;
 	}
 	.scrolled-top .initial-logo {
 		display: none;
+		transition: 0.5s all ease;
 	}
 	.scrolled-top .scrolled-nav {
 		display: block;
+		transition: 0.5s all ease;
 	}
 
 
