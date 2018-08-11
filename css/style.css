@@ -14,8 +14,10 @@ a {
 a:hover {
 	outline: none;
 	color: #fff;
+	text-decoration: none;
 }
 a:focus, a:visited {
+	text-decoration: none;
 	outline: none;
 	color: #fff;
 }
