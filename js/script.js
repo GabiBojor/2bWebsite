@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $(".type-wrap").typed({
-  strings: ["Website?", "Logo?", "orice alt design?"],
+  strings: ["Website?", "Logo?", "orice alt design?","Website?", "Logo?", "orice alt design?", "Website?"],
   stringsElement: null,
   // typing speed
   typeSpeed: 0,
