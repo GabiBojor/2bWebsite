@@ -31,6 +31,6 @@
      function getOrder() { 
       var home_param = document.getElementById('order-input').value;
       // var loc = window.location.pathname
-     var newLink = `about-us.html&${home_param}`
+     var newLink = `about-us.html?&${home_param}`
      location.pathname = newLink;
     }
