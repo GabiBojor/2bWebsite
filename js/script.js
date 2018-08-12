@@ -1,6 +1,6 @@
   $(document).ready(function(){
       if($('.check-id').length > 0){
-      var custom_link = location.hash.toLowerCase();
+      var custom_link = location.hash
       $('.check-id').each(function(){
         var rel = $(this).attr('rel');
         if(custom_link == rel){
@@ -40,7 +40,7 @@
 
 
   function getOrder() { 
-    var home_param = document.getElementById('order-input').value;
+    var home_param = document.getElementById('order-input').value.toLowerCase();
     var link = `order.html#${home_param}`
     location.pathname = link;
   }
