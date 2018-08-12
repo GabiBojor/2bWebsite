@@ -1,4 +1,14 @@
   $(document).ready(function(){
+    if($('.check-id').length > 0){
+      var link = location.hash  
+      $('.check-id').each(function(){
+        var rel = $(this).attr('rel');
+        if(link == rel){
+          $('.check-id').hide();
+          $(this).show();
+        }
+      })
+    }
     $(".type-wrap").typed({
       strings: ["Website?", "Logo?", "orice alt design?","Website?", "Logo?", "orice alt design?", "Website?"],
       stringsElement: null,
@@ -30,7 +40,6 @@
 
   function getOrder() { 
     var home_param = document.getElementById('order-input').value;
-
     var link = `order.html#${home_param}`
     location.pathname = link;
   }

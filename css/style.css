@@ -251,6 +251,10 @@
 	.edge-right .team_photo {
 		left: 0;
 	}
+	/*-- order --*/
+	.check-id{
+		display: none;
+	}
 
 
 	/*------
