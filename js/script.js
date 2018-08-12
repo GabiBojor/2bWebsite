@@ -2,8 +2,8 @@
       if($('.check-id').length > 0){
       var custom_link = location.hash
       $('.check-id').each(function(){
-        var rel = $(this).attr('rel');
-        if(custom_link == rel){
+        var custom_rel = $(this).attr('rel');
+        if(custom_link == custom_rel){
           alert('test');
           $('.check-id').hide();
           $(this).show();
