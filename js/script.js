@@ -29,8 +29,9 @@
 
 
      function getOrder() { 
-      window.location.search += "&my_param=foobar"
-    //   var home_param = document.getElementById('order-input').value;
+
+      var home_param = document.getElementById('order-input').value;
+      window.location.search += home_param
     //   // var loc = window.location.pathname
     // window.location.search += "&my_param=foobar"
      // var newLink = `about-us.html ?&${home_param}`
