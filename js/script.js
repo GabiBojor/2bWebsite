@@ -4,6 +4,7 @@
       $('.check-id').each(function(){
         var rel = $(this).attr('rel');
         if(link == rel){
+          alert('test');
           $('.check-id').hide();
           $(this).show();
         }
