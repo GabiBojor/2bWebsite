@@ -1,6 +1,6 @@
   $(document).ready(function(){
     if($('.check-id').length > 0){
-      var link = location.hash  
+      var link = location.hash.toLowerCase();
       $('.check-id').each(function(){
         var rel = $(this).attr('rel');
         if(link == rel){
