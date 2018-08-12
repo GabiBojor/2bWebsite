@@ -31,7 +31,7 @@
      function getOrder() { 
 
       var home_param = document.getElementById('order-input').value;
-      var link = 'about-us.html'
+      var link = 'about-us.html/?&'
        // window.location.search += ${home_param}
     //   // var loc = window.location.pathname
     // window.location.search += "&my_param=foobar"
