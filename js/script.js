@@ -36,5 +36,5 @@
     //   // var loc = window.location.pathname
     // window.location.search += "&my_param=foobar"
      // var newLink = `about-us.html ?&${home_param}`
-     location.pathname = link;
+     location.pathname = link + home_param;
     }
