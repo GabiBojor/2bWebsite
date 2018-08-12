@@ -170,7 +170,13 @@
 	.home-banner .btn{
 		margin-top: 20px;
 	}
-
+.home-order {
+    background: url(https://media.istockphoto.com/photos/time-to-get-productive-picture-id859664392?s=2048x2048);
+    background-size: cover;
+    background-size: no-repeat;
+    min-height: 600px;
+    position: relative;
+}
 	/*-- about --*/
 	.about-banner{
 		background: url(../images/about-us.png);
