@@ -1,9 +1,9 @@
   $(document).ready(function(){
       if($('.check-id').length > 0){
-      var link = location.hash.toLowerCase();
+      var custom_link = location.hash.toLowerCase();
       $('.check-id').each(function(){
         var rel = $(this).attr('rel');
-        if(link == rel){
+        if(custom_link == rel){
           alert('test');
           $('.check-id').hide();
           $(this).show();
