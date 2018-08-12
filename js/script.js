@@ -28,13 +28,9 @@
   });
 
 
-     function getOrder() { 
-
-      var home_param = document.getElementById('order-input').value;
-      var link = 'about-us.html?&'
-       // window.location.search += ${home_param}
-    //   // var loc = window.location.pathname
-    // window.location.search += "&my_param=foobar"
-     // var newLink = `about-us.html ?&${home_param}`
-     location.pathname = link + home_param;
-    }
+  function getOrder() { 
+    var home_param = document.getElementById('order-input').value;
+    var link = 'order.html?&'
+    location.pathname = link + home_param;
+  }
+  

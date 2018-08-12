@@ -93,23 +93,15 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="home-order">
-      <div class="v-align">
-        <span>am nevoie de</span>
-        <input type="text" placeholder="test" id="order-input">
-        <input type="button" class="btn" value="continua" onclick="getOrder()">
-      </div>
-    </div>
+   <script>
+       var url_string = window.location.href;
+var url = new URL(url_string);
+var website = url.searchParams.get("wbsite");
+var EmailId = url.searchParams.get("EmailId");
+var Phone = url.searchParams.get("Phone");
+alert(website)
+   </script>
+  
 
 
     <script src="js/wow.min.js"></script>
