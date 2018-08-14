@@ -182,6 +182,7 @@
 #why-us i{
 	font-size: 50px;
 	transition: 0.5s all ease;
+	cursor: pointer;
 }
 #why-us p{
 	font-size: 18px;
@@ -191,6 +192,8 @@
 }
 #why-us .row > div:hover i{
 	font-size: 70px;
+	color: #56b3df;
+	transform: rotate(-360deg);
 }
 #why-us .row > div:hover p{
 	display: block;
