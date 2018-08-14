@@ -1,5 +1,5 @@
   $(document).ready(function(){
-      if($('.check-id').length > 0){
+    if($('.check-id').length > 0){
       var custom_link = location.hash
       $('.check-id').each(function(){
         var custom_rel = $(this).attr('rel');
@@ -41,7 +41,7 @@
   function getOrder() { 
     var home_param = document.getElementById('order-input').value.toLowerCase();
     var link = `order.html#${home_param}`;
-    var decode = decodeURIComponent((link + '').replace(/\%23/g, '#'));
+    var decode = decodeURIComponent(link)
     location.pathname = decode;
   }
 
