@@ -91,11 +91,11 @@
 	/*------
 	FOOTER
 	------*/
-.footer-wrapper {
-    color: #fff;
-    padding: 20px 15px;
-    background: #244859;
-}
+	.footer-wrapper {
+		color: #fff;
+		padding: 20px 15px;
+		background: #244859;
+	}
 
 
 
@@ -134,30 +134,30 @@
 	/*------
 	CUSTOM ELEMENTS
 	------*/
-.gray-bg{
-	background: #f3f3f3;
-}
+	.gray-bg{
+		background: #f3f3f3;
+	}
 
-.horder-container{
-	width: 600px;
-	max-width: 100%;
-	margin: 0 auto;
-}
+	.horder-container{
+		width: 600px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
 
 	.custom-container{
 		width: 1140px;
 		max-width: 100%;
 		margin: 0 auto;
 	}
-.banner{
-	background-position: center center;
+	.banner{
+		background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover !important;
 		background-repeat: no-repeat;
 		height: 100vh;
-}
+	}
 	.home-banner{
 		background-image: url('../images/banner.jpg');
 	}
@@ -180,38 +180,38 @@
 	.home-banner .btn{
 		margin-top: 20px;
 	}
-.home-order {
-    background: url(../images/Home-order.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    min-height: 350px;
-    position: relative;
+	.home-order {
+		background: url(../images/Home-order.jpg);
+		background-size: cover;
+		background-size: no-repeat;
+		min-height: 350px;
+		position: relative;
 		text-align: center;
 		color: white;
-}
+	}
 
-.home-order span{
-	color: white;
-	font-weight: 100;
-	font-size: 30px;
-}
+	.home-order span{
+		color: white;
+		font-weight: 100;
+		font-size: 30px;
+	}
 
-.home-order h4{
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 2px;
-	font-size: 32px;
-}
+	.home-order h4{
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 2px;
+		font-size: 32px;
+	}
 
-.home-order input{
-	margin-top: 60px;
-	font-size: 30px;
-	border: none;
-	background: transparent;
-	color:#56B3DF;
-	font-weight: 900;
-	padding: 0 5px;
-}
+	.home-order input{
+		margin-top: 60px;
+		font-size: 30px;
+		border: none;
+		background: transparent;
+		color:#56B3DF;
+		font-weight: 900;
+		padding: 0 5px;
+	}
 
 	/*-- about --*/
 	.about-banner{
@@ -238,24 +238,24 @@
 		padding: 0 100px;
 	}
 	.team_name {
-    font-weight: bold;
-    color: #56b3df;
-    text-transform: capitalize;
-    font-size: 35px;
-    line-height: 45px;
-}
+		font-weight: bold;
+		color: #56b3df;
+		text-transform: capitalize;
+		font-size: 35px;
+		line-height: 45px;
+	}
 	.team_function{
 		color: #56b3df;
 		font-size: 25px;
 		line-height: 30px;
 	}
-.team_info {
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 25px;
-    width: 750px;
-    max-width: 100%;
-}
+	.team_info {
+		font-size: 18px;
+		line-height: 24px;
+		margin-top: 25px;
+		width: 750px;
+		max-width: 100%;
+	}
 	.team_photo {
 		width: auto;
 		height: 800px;
