@@ -134,6 +134,11 @@
 	/*------
 	CUSTOM ELEMENTS
 	------*/
+.grey-bg{
+	background: #f3f3f3;
+
+}
+
 .horder-container{
 	width: 600px;
 	max-width: 100%;
