@@ -41,7 +41,7 @@
   function getOrder() { 
     var home_param = document.getElementById('order-input').value.toLowerCase();
     var link = `order.html#${home_param}`;
-    link =  text.replace("%23","#");
+    link.replace("%23","#");
     location.pathname = link;
   }
 
