@@ -35,7 +35,7 @@
 
 
 
-/* TEST */
+/* Why Chose Us? */
 .choose-us-wraper {
   padding: 50px 0;
 }
@@ -255,6 +255,15 @@
 		margin-top: 20px;
 	}
 
+
+	#order-input{
+		color: #56b3df;
+		margin-left: 15px;
+		font-weight: 700;
+		font-size: 20px;
+		outline: none
+	}
+
 	#why-us .gray-bg {
 		padding: 30px 0;
 		min-height: 150px;
@@ -281,13 +290,13 @@
 		font-size: 0;
 	}
 	.home-order {
-		background: url(../images/Home-order.jpg);
+		background: url(../images/home-order2.jpg);
 		background-size: cover;
 		background-size: no-repeat;
 		min-height: 350px;
 		position: relative;
 		text-align: center;
-		color: white;
+		color: #244859;
 	}
 	.home-order .v-align{
 		width: 600px;
@@ -295,7 +304,7 @@
 		margin: 0 auto;
 	}
 	.home-order span{
-		color: white;
+		color: #244859;
 		font-weight: bold;
 		font-size: 30px;
 	}
