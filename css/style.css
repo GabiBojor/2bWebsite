@@ -175,31 +175,31 @@
 		margin-top: 20px;
 	}
 
-#why-us .gray-bg {
-    padding: 30px 0;
-    min-height: 150px;
-}
-#why-us i{
-	font-size: 50px;
-	transition: 0.5s all ease;
-	cursor: pointer;
-}
-#why-us p{
-	font-size: 18px;
-	margin: 10px 0 0;
-	display: block;
-	transition: 0.5s all ease;
-}
-#why-us .row > div:hover i{
-	font-size: 70px;
-	color: #56b3df;
-	transform: rotate(-360deg);
-}
-#why-us .row > div:hover p{
-	display: block;
-	transition: 0.5s all ease;
-	font-size: 0;
-}
+	#why-us .gray-bg {
+		padding: 30px 0;
+		min-height: 150px;
+	}
+	#why-us i{
+		font-size: 50px;
+		transition: 0.5s all ease;
+		cursor: pointer;
+	}
+	#why-us p{
+		font-size: 18px;
+		margin: 10px 0 0;
+		display: block;
+		transition: 0.5s all ease;
+	}
+	#why-us .row > div:hover i{
+		font-size: 70px;
+		color: #56b3df;
+		transform: rotate(-360deg);
+	}
+	#why-us .row > div:hover p{
+		display: block;
+		transition: 0.5s all ease;
+		font-size: 0;
+	}
 	.home-order {
 		background: url(../images/Home-order.jpg);
 		background-size: cover;
@@ -209,14 +209,14 @@
 		text-align: center;
 		color: white;
 	}
-.home-order .v-align{
+	.home-order .v-align{
 		width: 600px;
 		max-width: 100%;
 		margin: 0 auto;
 	}
 	.home-order span{
 		color: white;
-		font-weight: 100;
+		font-weight: bold;
 		font-size: 30px;
 	}
 
@@ -225,17 +225,25 @@
 		font-weight: 400;
 		letter-spacing: 2px;
 		font-size: 32px;
+		margin: 0;
 	}
 
-	.home-order input{
-		margin-top: 60px;
-		font-size: 30px;
-		border: none;
-		background: transparent;
-		color:#56B3DF;
-		font-weight: 900;
-		padding: 0 5px;
-	}
+.home-order select {
+    border: 1px solid #56b3df;
+    border-width: 0 0 1px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent url("../images/arrow.png") no-repeat scroll 100% center;
+    background-size: 15px auto;
+    margin: 50px 0 50px 5px;
+    color: #fff;
+    width: 200px;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0 0 10px;
+    vertical-align: middle;
+}
 
 	/*-- about --*/
 	.about-banner{
