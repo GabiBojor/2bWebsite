@@ -258,9 +258,9 @@
 
 	#order-input{
 		color: #56b3df;
-		margin-left: 15px;
+		margin-left: 5px;
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 30px;
 		outline: none
 	}
 
@@ -290,13 +290,13 @@
 		font-size: 0;
 	}
 	.home-order {
-		background: url(../images/home-order2.jpg);
+		background: url(../images/home-order3.jpg);
 		background-size: cover;
 		background-size: no-repeat;
 		min-height: 350px;
 		position: relative;
 		text-align: center;
-		color: #244859;
+		color: white;
 	}
 	.home-order .v-align{
 		width: 600px;
@@ -304,7 +304,7 @@
 		margin: 0 auto;
 	}
 	.home-order span{
-		color: #244859;
+		color: white;
 		font-weight: bold;
 		font-size: 30px;
 	}
