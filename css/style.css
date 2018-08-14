@@ -138,12 +138,6 @@
 		background: #f3f3f3;
 	}
 
-	.horder-container{
-		width: 600px;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-
 	.custom-container{
 		width: 1140px;
 		max-width: 100%;
@@ -180,6 +174,27 @@
 	.home-banner .btn{
 		margin-top: 20px;
 	}
+
+#why-us .gray-bg {
+	padding: 30px 0;
+}
+#why-us i{
+	font-size: 50px;
+	transition: 0.5s all ease;
+}
+#why-us p{
+	font-size: 30px;
+	margin: 10px 0 0;
+	display: none;
+	transition: 0.5s all ease;
+}
+#why-us .row > div:hover i{
+	font-size: 30px;
+}
+#why-us .row > div:hover p{
+	display: block;
+	transition: 0.5s all ease;
+}
 	.home-order {
 		background: url(../images/Home-order.jpg);
 		background-size: cover;
@@ -189,7 +204,11 @@
 		text-align: center;
 		color: white;
 	}
-
+.home-order .v-align{
+		width: 600px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
 	.home-order span{
 		color: white;
 		font-weight: 100;
