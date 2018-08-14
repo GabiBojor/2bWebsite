@@ -39,11 +39,9 @@
 
 
   function getOrder() { 
-    alert('test');
     var home_param = document.getElementById('order-input').value.toLowerCase();
     var link = `order.html#${home_param}`;
     var decode = decodeURIComponent(link)
-    alert(link);
     location.pathname = decode;
   }
 
