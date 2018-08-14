@@ -39,9 +39,10 @@
 
 
   function getOrder() { 
-    var home_param = document.getElementById('order-input').value.toLowerCase();
+    var home_param = document.getElementById('order-input').value;
     var link = `order.html${home_param}`;
-    alert(link)
+    encodeURI(link);
+    alert(link);
     location.pathname = link;
   }
 
