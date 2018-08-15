@@ -1,6 +1,7 @@
   $(document).ready(function(){
 
     if($('.check-id').length > 0){
+        $('.container-top').addClass('scrolled-top');
       $('.next-step').click(function(e){
         e.preventDefault();
         if ($('.active-section').next('.step').length) {
