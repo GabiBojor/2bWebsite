@@ -1,7 +1,7 @@
   <!DOCTYPE html>
   <html lang="en">
   <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -10,7 +10,8 @@
     <link rel="icon" href="favicon.ico">
     <title>2B-studios | Agentie de Web Design</title>
     <!-- script -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/script.js"></script>
     <script src="js/smooth-scroll.js"></script>
@@ -98,29 +99,29 @@
       </div>
     </div>
 
- <div id="why-us">
-    <div class="gray-bg center">
-
-      <div class="row">
-        <div class="col-sm-3">
-          <i class="fas fa-desktop"></i>
-          <p>Website</p>
-        </div>
-        <div class="col-sm-3">
-          <i class="fab fa-adn"></i>
-          <p>Logo Design</p>
-        </div>
-        <div class="col-sm-3">
-          <i class="far fa-address-card"></i>
-          <p>Carti de vizita</p>
-        </div>
-        <div class="col-sm-3">
-          <i class="fas fa-pencil-alt"></i>
-          <p>Alte designuri</p>
+    <div id="why-us">
+      <div class="gray-bg center">
+        <div class="custom-container">
+          <div class="row">
+            <div class="col-sm-3">
+              <i class="fas fa-desktop"></i>
+              <p>Website</p>
+            </div>
+            <div class="col-sm-3">
+              <i class="fab fa-adn"></i>
+              <p>Logo Design</p>
+            </div>
+            <div class="col-sm-3">
+              <i class="far fa-address-card"></i>
+              <p>Carti de vizita</p>
+            </div>
+            <div class="col-sm-3">
+              <i class="fas fa-pencil-alt"></i>
+              <p>Alte designuri</p>
+            </div>
+          </div>
         </div>
       </div>
-
-    </div>
     </div>
 
     <div class="choose-us-wraper">
@@ -178,23 +179,23 @@
       </div>
     </div>
 
-      <div class="home-order">
-        <div class="v-align">
-          <h4>
-            Cum te putem ajuta?
-          </h4>
-          <span>Am nevoie de</span>
-<select id="order-input">
-  <option value="alege">Alege din lista.</option>
-  <option value="#website">Website</option>
-  <option value="#logo">Logo</option>
-  <option value="#design">Design</option>
-</select>
-          <div>
-            <input type="submit" class="btn" value="continua" onclick="getOrder()">
-          </div>
+    <div class="home-order">
+      <div class="v-align">
+        <h4>
+          Cum te putem ajuta?
+        </h4>
+        <span>Am nevoie de</span>
+        <select id="order-input">
+          <option value="0">Alege din lista.</option>
+          <option value="#website">Website</option>
+          <option value="#logo">Logo</option>
+          <option value="#design">Design</option>
+        </select>
+        <div>
+          <input type="submit" class="btn" value="continua" onclick="getOrder()">
         </div>
       </div>
+    </div>
 
 
     <script src="js/wow.min.js"></script>
