@@ -36,8 +36,16 @@
 	 color: #56B3DF;
 }
 
+.order-btn{
+	padding: 7px 10px;
+	background: #56B3Df;
+	border-radius: 5px;
+	font-size: 13px;
+}
 
-
+#check{
+margin-bottom: 40px;
+}
 
 
 
@@ -466,32 +474,50 @@
 
 }
 .order-form > div.second-section {
-	border-top: 3px solid #244859;
+		border-top: 3px solid #244859;
     background: #ececec;
     transition: 0.5s all ease;
     width: 30%;
     opacity: 0;
     left: -400px;
+		z-index: 500;
 }
 .order-form > div.third-section{
+	border-top: 3px solid #56B3DF;
  width: 30%;
     opacity: 0;
     left: -400px;
 		background: #f3f3f3;
 }
 
-.step>b{
-	font-size: 20px;
+#step-title{
+	font-size: 18px;
 	font-weight: 100;
+	text-transform: uppercase;
+	padding-bottom: 25px;
 }
 
-.step>span{
-	font-size: 20px;
-	font-weight: 600;
+#step-title span{
+	font-weight: 700;
 }
 
+.data input, .logo-info input{
+	margin-bottom: 15px;
+}
 
+.logo-info textarea{
+	margin-bottom: 58px;
+}
 
+.step input{
+	border-radius: 5px;
+	border-style: none;
+	padding: 7px 0;
+	padding-right: 90px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+}
 
 	/*------
 	RESPONSIVE CSS
