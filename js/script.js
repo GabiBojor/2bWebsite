@@ -40,10 +40,7 @@
 
   function getOrder() { 
     var home_param = document.getElementById('order-input').value;
-    var link = `order.html${home_param}`;
-   encodeURIComponent(link); 
-    alert(link);
-    alert('test');
+    var link = encodeURI(`order.html${home_param}`);
     location.pathname = link;
   }
 
