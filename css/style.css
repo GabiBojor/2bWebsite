@@ -47,6 +47,7 @@
 
 
 
+
 	/*------
 	TOP PART
 	------*/
@@ -468,7 +469,7 @@
 }
 .order-form > div.second-section {
 	border-top: 3px solid #244859;
-    background: #f3f3f3;
+    background: #ececec;
     transition: 0.5s all ease;
     width: 30%;
     opacity: 0;
@@ -478,8 +479,19 @@
  width: 30%;
     opacity: 0;
     left: -400px;
+		background: #f3f3f3;
 }
-.order-form > div.second-section
+
+.step>b{
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.step>span{
+	font-size: 20px;
+	font-weight: 600;
+}
+
 
 
 
