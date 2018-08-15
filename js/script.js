@@ -13,14 +13,7 @@
 
         }
       });
-      var custom_link = location.hash
-      $('.check-id').each(function(){
-        var custom_rel = $(this).attr('rel');
-        if(custom_link == custom_rel){
-          $('.check-id').hide();
-          $(this).show();
-        }
-      })
+
     }
     $(".type-wrap").typed({
       strings: ["Website?", "Logo?", "orice alt design?","Website?", "Logo?", "orice alt design?", "Website?"],
@@ -32,7 +25,7 @@
       backDelay: 2000,
       fadeOut: false,
       fadeOutClass: 'typed-fade-out',
-      fadeOutDelay: 1500, 
+      fadeOutDelay: 1500,
       loop: false,
       loopCount: false,
       showCursor: true,
@@ -52,7 +45,7 @@
 
 
 
-  function getOrder() { 
+  function getOrder() {
     var option_one = document.getElementById('order-input').value;
 
     if(option_one == 0){
@@ -69,10 +62,9 @@
     }
 
   }
-  
+
   function closePopup() {
     document.querySelector('.overlay').style.display = 'none';
     document.querySelector('.alert').classList.remove("shown-alert");
     return false;
   }
-
