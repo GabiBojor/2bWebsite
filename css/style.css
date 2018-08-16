@@ -628,7 +628,7 @@ right: 0;
 		margin-bottom: 58px;
 	}
 
-	.step input{
+	.step > input{
 		border-radius: 5px;
 		border-style: none;
 		padding: 7px 0;
