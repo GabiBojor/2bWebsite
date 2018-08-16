@@ -583,6 +583,7 @@ right: 0;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
+		min-height: 470px;
 	}
 	.order-form > div.first-section {
 		background: #e0e0e0;
@@ -631,10 +632,10 @@ right: 0;
 		border-radius: 5px;
 		border-style: none;
 		padding: 7px 0;
-		padding-right: 90px;
 		padding-left: 10px;
 		text-align: left;
 		font-size: 14px;
+		width: 80%;
 	}
 
 
