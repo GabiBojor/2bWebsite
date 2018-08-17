@@ -91,15 +91,15 @@
 	.scrolled-top .logo img {
 		transition: 0.5s all ease;
 	}
-	.scrolled-nav {
+	.scrolled-logo {
 		display: none;
 		transition: 0.5s all ease;
 	}
-	.scrolled-top .initial-logo {
+	.scrolled-top .initial-logo, .active-top .initial-logo {
 		display: none;
 		transition: 0.5s all ease;
 	}
-	.scrolled-top .scrolled-nav {
+	.scrolled-top .scrolled-logo, .active-top .scrolled-logo {
 		display: block;
 		transition: 0.5s all ease;
 	}
@@ -135,9 +135,9 @@
 		top: 16px;
 		transition: 0.5s all ease;
 	}
-	.scrolled-top #main_nav{
+	.scrolled-top #main_nav, .active-top #main_nav{
 		transition: 0.5s all ease;
-		top: 13px;
+		top: 8px;
 	}
 	ul#nav > li > a, ul#nav_mobile > li > a {
 		color: #fff !important;
