@@ -63,11 +63,11 @@
 		z-index: 9;
 		transition: 0.5s all ease;
 	}
-	.scrolled-top{
+	.scrolled-top, .active-top{
 		background: #56b3df;
 		transition: 0.5s all ease;
 	}
-	.scrolled-top .top-wrap {
+	.scrolled-top .top-wrap, .active-top .top-wrap {
 		padding: 5px 0;
 		transition: 0.5s all ease;
 	}
@@ -88,7 +88,7 @@
 		transition: 0.5s all ease;
 	}
 
-	.scrolled-top .logo img {
+	.scrolled-top .logo img, .active-top .logo img {
 		transition: 0.5s all ease;
 	}
 	.scrolled-logo {
