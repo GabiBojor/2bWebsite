@@ -383,7 +383,7 @@ right: 0;
 		background: url(../images/home-order3.jpg);
 		background-size: cover;
 		background-size: no-repeat;
-		min-height: 570px;
+		min-height: 350px;
 		position: relative;
 		text-align: center;
 		color: white;
@@ -650,7 +650,103 @@ right: 0;
 		border-radius: 5px;
 		font-size: 13px;
 	}
+/*-- portfolio --*/
+.our-projects{
+	 min-height: 300px;
+}
+.our-projects > div {
+    display: inline-block;
+    min-height: 300px;
+    margin: 0 -2px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 16.66%;
+    transition: 1s all ease;
+    position: relative;
+}
+.projects-menu {
+    margin: 100px 0 50px;
+}
+.projects-menu > a {
+    color: #7f7f7f;
+    display: inline-block;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 3px 20px;
+    transition: all 0.3s ease 0s;
+}
+.projects-menu > a:hover, .projects-menu .active-btn{
+	background: #56B3DF;
+	color: #fff;
+	 transition: 0.3s all ease;
+}
+.our-projects > div.all.hidden-project {
+    height: 0;
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+.our-projects > div.all.shown-project {
+    opacity: 1;
+    width: 16.66%;
+}
+.photography {
+    background: url(https://media.istockphoto.com/vectors/abstract-linear-emblemtype-wave-flow-emblem-symbol-motion-stream-vector-id684523324?s=2048x2048);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.webdesign {
+    background: url(https://media.istockphoto.com/vectors/-vector-id849249752?s=2048x2048);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.print {
+    background: url(https://media.istockphoto.com/vectors/vector-illustration-abstract-colorful-triangle-vector-id680665012?s=2048x2048);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-projects > div img{
+	display: none;
+}
+.open-project {
+    background: #56B3DF none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: translateY(64px);
+    transition: 0.3s all ease;
+}
 
+.open-project > span {
+    display: inline-block;
+    padding: 18px;
+}
+.open-project > a {
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #111;
+    float: right;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+}
+.open-project a i.fas {
+    padding: 22px 0;
+}
+
+.our-projects > div:hover .open-project{
+  transform: translateY(0);
+      transition: 0.3s all ease;
+}
+.our-projects > div img {
+	 transition: all 0.3s ease 0s;
+}
+.our-projects > div:hover img {
+    transform: translateY(-60px);
+    transition: all 0.3s ease 0s;
+}
 	/*------
 	RESPONSIVE CSS
 	------ */

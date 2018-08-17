@@ -1,5 +1,15 @@
   $(document).ready(function(){
+$('.projects-menu > a').click(function(e){
+      e.preventDefault();
+      $('.projects-menu > a').removeClass('active-btn')
+      $(this).addClass('active-btn');
+      var link = $(this).attr('rel');
+        $('.our-projects > div').addClass('hidden-project');
+        $('.our-projects > div').removeClass('shown-project');
+        $('div.' + link).removeClass('hidden-project');
+        $('div.' + link).addClass('shown-project');
 
+    })
     if($('.check-id').length > 0){
         $('.container-top').addClass('active-top');
       $('.next-step').click(function(e){
@@ -26,7 +36,7 @@
       fadeOut: false,
       fadeOutClass: 'typed-fade-out',
       fadeOutDelay: 1500,
-      loop: false,
+      loop: true,
       loopCount: false,
       showCursor: true,
       cursorChar: "|",
