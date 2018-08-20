@@ -10,7 +10,7 @@ $('.projects-menu > a').click(function(e){
         $('div.' + link).addClass('shown-project');
 
     })
-    if($('.check-id').length > 0){
+    if($('.order-wrapper').length > 0){
         $('.container-top').addClass('active-top');
       $('.next-step').click(function(e){
         e.preventDefault();
@@ -56,9 +56,9 @@ $('.projects-menu > a').click(function(e){
 
 
   function getOrder() {
-    var option_one = document.getElementById('order-input').value;
-
-    if(option_one == 0){
+      var option_one = document.getElementById('order-input').value;
+      var alert_popup = '<div class="alert"><div class="right"><a class="close-alert" onclick="closePopup()"><i class="fas fa-times-circle"></i></a></div>PLease bla bla</div> <div class="overlay" onclick="closePopup()"></div> ';
+      if(option_one == 0){
       document.body.insertAdjacentHTML( 'beforeend', alert_popup );
       document.querySelector('.overlay').style.display = 'block';
       setTimeout(function(){

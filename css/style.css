@@ -41,7 +41,7 @@
 		color: #56B3DF;
 	}
 
-	
+
 
 
 
@@ -60,12 +60,13 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		z-index: 9;
+		z-index: 9999;
 		transition: 0.5s all ease;
 	}
 	.scrolled-top, .active-top{
 		background: #56b3df;
 		transition: 0.5s all ease;
+
 	}
 	.scrolled-top .top-wrap, .active-top .top-wrap {
 		padding: 5px 0;
@@ -144,7 +145,7 @@
 		font-size: 18px;
 		padding: 0 15px;
 	}
-	
+
 	ul#nav > li, ul#nav_mobile > li {
 
 	}
@@ -302,83 +303,83 @@
 		font-size: 15px;
 	}
 	.testimonials-wrapper {
-    margin: 60px auto 0;
-}
-.testimonials_title {
-    display: block;
-    font-size: 45px;
-    line-height: 55px;
-    text-align: center;
-    margin-bottom: 100px;
-    font-weight: bold;
-    position: relative;
-}
-.testimonials_title::after{
-	content: "";
-position: absolute;
-bottom: -12px;
-left: 0;
-width: 70px;
-height: 1px;
-background-color: #56B3DF;
-margin: 0 auto;
-right: 0;
-}
+		margin: 60px auto 0;
+	}
+	.testimonials_title {
+		display: block;
+		font-size: 45px;
+		line-height: 55px;
+		text-align: center;
+		margin-bottom: 100px;
+		font-weight: bold;
+		position: relative;
+	}
+	.testimonials_title::after{
+		content: "";
+		position: absolute;
+		bottom: -12px;
+		left: 0;
+		width: 70px;
+		height: 1px;
+		background-color: #56B3DF;
+		margin: 0 auto;
+		right: 0;
+	}
 
-.testimonials-wrapper > div {
-  background: #fff none repeat scroll 0 0;
-    border-top: 1px solid #f8f8f8;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    padding: 40px 50px 50px;
-    text-align: center;
-    transition: all 0.3s ease 0s;
-    display: inline-block;
-    width: 31.3%;
-    margin-right: 30px;
-}
-.testimonials-wrapper > div:last-child{
-	margin-right: 0;
-}
-.testimonials-wrapper > div:hover{
-	box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
-    transform: translateY(-10px);
-}
-.testimonials-wrapper div .img-wrapper {
-    margin: -84px auto 30px;
-    overflow: hidden;
-}
-.testimonials-wrapper div .img-wrapper img {
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-}
-.testimonial-info {
-    border-color: #ccc;
-    border-style: solid;
-    border-width: 1px 0;
-    line-height: 28px;
-    padding: 20px 0;
-}
-.testimonial-name {
-    margin-top: 30px;
-    text-transform: uppercase;
-}
-.testimonial-name i.fas {
-    border: 1px solid;
-    border-radius: 23px;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 8px;
-}
-.testimonial-name > b {
-    display: block;
-    letter-spacing: 2px;
-}
-.testimonials-wrapper .btn{
-	margin-top: 20px;
-	font-size: 12px;
-	padding: 6px 12px;
-}
+	.testimonials-wrapper > div {
+		background: #fff none repeat scroll 0 0;
+		border-top: 1px solid #f8f8f8;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		padding: 40px 50px 50px;
+		text-align: center;
+		transition: all 0.3s ease 0s;
+		display: inline-block;
+		width: 31.3%;
+		margin-right: 30px;
+	}
+	.testimonials-wrapper > div:last-child{
+		margin-right: 0;
+	}
+	.testimonials-wrapper > div:hover{
+		box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+		transform: translateY(-10px);
+	}
+	.testimonials-wrapper div .img-wrapper {
+		margin: -84px auto 30px;
+		overflow: hidden;
+	}
+	.testimonials-wrapper div .img-wrapper img {
+		height: 90px;
+		width: 90px;
+		border-radius: 50%;
+	}
+	.testimonial-info {
+		border-color: #ccc;
+		border-style: solid;
+		border-width: 1px 0;
+		line-height: 28px;
+		padding: 20px 0;
+	}
+	.testimonial-name {
+		margin-top: 30px;
+		text-transform: uppercase;
+	}
+	.testimonial-name i.fas {
+		border: 1px solid;
+		border-radius: 23px;
+		display: inline-block;
+		margin-top: 15px;
+		padding: 8px;
+	}
+	.testimonial-name > b {
+		display: block;
+		letter-spacing: 2px;
+	}
+	.testimonials-wrapper .btn{
+		margin-top: 20px;
+		font-size: 12px;
+		padding: 6px 12px;
+	}
 	.home-order {
 		background: url(../images/home-order3.jpg);
 		background-size: cover;
@@ -431,7 +432,7 @@ right: 0;
 		right: 0;
 		bottom: 0;
 		background: rgba(0,0,0,0.75);
-		z-index: 9;
+		z-index: 9999;
 	}
 	.alert {
 		background: #fff none repeat scroll 0 0;
@@ -445,7 +446,7 @@ right: 0;
 		top: 10%;
 		transition: all 0.3s ease 0s;
 		width: 320px;
-		z-index: 999;
+		z-index: 99999;
 		transform: translateY(-500px);
 		max-width: 100%;
 		word-break: break-all;
@@ -460,46 +461,48 @@ right: 0;
 		position: absolute;
 		right: 10px;
 		top: 5px;
+		cursor: pointer;
 	}
 	.close-alert i {
 		color: #56B3DF;
 	}
-.contact-us > b{
-	display: block;
-	font-size: 45px;
-	line-height: 55px;
-}
-.contact-us > span{
-	font-size: 20px;
-	line-height: 30px;
-	margin-bottom: 50px;
-	display: block;
-}
-.contact-us .element_label{
-	display: block;
-	margin-bottom: 10px;
-}
-.contact-us .element_label span{
-	display: block;
-	margin-bottom: 5px;
-	color: #a6abad;
-	font-size: 18px;
-}
-.contact-us .element_label input{
-	height: 45px;
-	border: none;
-	width: 80%;
-}
-.contact-us textarea {
-    display: block;
-    min-height: 154px;
-    margin: 32px 0 20px;
-    border: none;
-    width: 100%;
-}
-.contact-us .btn{
-	width: 100%;
-}
+	.contact-us > b{
+		display: block;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.contact-us > span{
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 50px;
+		display: block;
+	}
+	.contact-us .element_label{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.contact-us .element_label span{
+		display: block;
+		margin-bottom: 5px;
+		color: #a6abad;
+		font-size: 18px;
+	}
+	.contact-us .element_label input{
+		height: 45px;
+		border: none;
+		width: 80%;
+		padding: 6px 15px;
+	}
+	.contact-us textarea {
+		display: block;
+		min-height: 154px;
+		margin: 32px 0 20px;
+		border: none;
+		width: 100%;
+	}
+	.contact-us .btn{
+		width: 100%;
+	}
 
 	/*-- about --*/
 	.about-banner{
@@ -576,37 +579,40 @@ right: 0;
 		left: 0;
 	}
 	/*-- order --*/
-
-	.order-form{
-		overflow: hidden;
-	}
+.order-name {
+    font-size: 30px;
+    color: #56B3DF;
+    font-weight: bold;
+}
+	.order-form {
+    overflow: hidden;
+    margin-top: 50px;
+}
 	.order-form > div {
 		padding: 30px;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
-		min-height: 470px;
+		width: 30%;
+		opacity: 0;
 	}
 	.order-form > div.first-section {
 		background: #e0e0e0;
-		border-top: 3px solid #56B3DF;
+	border-top: 3px solid #244859;
+
 		width: 30%;
 		z-index: 999;
-
+	opacity: 1;
 	}
 	.order-form > div.second-section {
-		border-top: 3px solid #244859;
+		border-top: 3px solid #56B3DF;
 		background: #ececec;
 		transition: 0.5s all ease;
-		width: 30%;
-		opacity: 0;
 		left: -400px;
 		z-index: 500;
 	}
 	.order-form > div.third-section{
-		border-top: 3px solid #56B3DF;
-		width: 30%;
-		opacity: 0;
+			border-top: 3px solid #6b6b6b;
 		left: -400px;
 		background: #f3f3f3;
 	}
@@ -621,28 +627,30 @@ right: 0;
 	#step-title span{
 		font-weight: 700;
 	}
-
+	.data{
+		min-height: 350px;
+	}
 	.data input, .logo-info input{
 		margin-bottom: 15px;
 	}
 
 	.logo-info textarea{
-		margin-bottom: 58px;
+		min-height: 100px;
 	}
-
-	.step  input.inp{
+	.step  input.inp, .logo-info textarea{
 		border-radius: 5px;
 		border-style: none;
-		padding: 7px 0;
-		padding-left: 10px;
+		padding: 7px 10px;
 		text-align: left;
 		font-size: 14px;
-		width: 80%;
+		width: 100%;
+	}
+	#check input {
+		margin: 0;
 	}
 
-
-	#check{
-		margin-bottom: 40px;
+	.step-buttons > div{
+		padding: 0;
 	}
 	.order-btn{
 		padding: 7px 10px;
@@ -650,103 +658,129 @@ right: 0;
 		border-radius: 5px;
 		font-size: 13px;
 	}
-/*-- portfolio --*/
-.our-projects{
-	 min-height: 300px;
-}
-.our-projects > div {
+		.type-of-logo{
+			text-align: center;
+		}
+		.type-of-logo span{
+			display: block;
+			text-align: left;
+			margin-bottom: 10px;
+		}
+	.type-of-logo label {
     display: inline-block;
-    min-height: 300px;
-    margin: 0 -2px;
-    overflow: hidden;
-    vertical-align: top;
-    width: 16.66%;
-    transition: 1s all ease;
-    position: relative;
+    width: 32.3%;
+    margin-bottom: 5px;
 }
-.projects-menu {
-    margin: 100px 0 50px;
+.type-of-logo label > input{ 
+  visibility: hidden; 
+  position: absolute; 
+  margin-bottom: 0;
 }
-.projects-menu > a {
-    color: #7f7f7f;
-    display: inline-block;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    padding: 3px 20px;
-    transition: all 0.3s ease 0s;
+.type-of-logo label > input + img{
+  cursor:pointer;
+  border:2px solid transparent;
 }
-.projects-menu > a:hover, .projects-menu .active-btn{
-	background: #56B3DF;
-	color: #fff;
-	 transition: 0.3s all ease;
+.type-of-logo label > input:checked + img{ 
+  border:2px solid #56B3DF;
+  opacity: 0.9;
 }
-.our-projects > div.all.hidden-project {
-    height: 0;
-    opacity: 0;
-    width: 0;
-    overflow: hidden;
-}
-.our-projects > div.all.shown-project {
-    opacity: 1;
-    width: 16.66%;
-}
-.photography {
-    background: url(https://media.istockphoto.com/vectors/abstract-linear-emblemtype-wave-flow-emblem-symbol-motion-stream-vector-id684523324?s=2048x2048);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.webdesign {
-    background: url(https://media.istockphoto.com/vectors/-vector-id849249752?s=2048x2048);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.print {
-    background: url(https://media.istockphoto.com/vectors/vector-illustration-abstract-colorful-triangle-vector-id680665012?s=2048x2048);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.our-projects > div img{
-	display: none;
-}
-.open-project {
-    background: #56B3DF none repeat scroll 0 0;
-    bottom: 0;
-    color: #fff;
-    font-weight: bold;
-    left: 0;
-    position: absolute;
-    right: 0;
-    transform: translateY(64px);
-    transition: 0.3s all ease;
-}
+	/*-- portfolio --*/
+	.projects-menu {
+		margin: 100px 0 50px;
+	}
+	.projects-menu > a {
+		color: #7f7f7f;
+		display: inline-block;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		padding: 3px 20px;
+		transition: 0.8s all ease;
+	}
+	.projects-menu > a:hover, .projects-menu .active-btn{
+		background: #56B3DF;
+		color: #fff;
+		transition: 0.8s all ease;
+	}
+	.our-projects{
+		min-height: 300px;
+	}
+	.our-projects > div {
+		display: inline-block;
+		min-height: 300px;
+		margin: 0 -2px;
+		overflow: hidden;
+		vertical-align: top;
+		width: 33.4%;
+		transition: 0.8s all ease;
+		position: relative;
+	}
 
-.open-project > span {
-    display: inline-block;
-    padding: 18px;
-}
-.open-project > a {
-    background: #f8f8f8 none repeat scroll 0 0;
-    color: #111;
-    float: right;
-    height: 60px;
-    text-align: center;
-    width: 60px;
-}
-.open-project a i.fas {
-    padding: 22px 0;
-}
+	.our-projects > div.hidden-project {
+		height: 0;
+		width: 0;
+		transform: scale(0);
+	}
+	.our-projects > div.shown-project {
+		transform: scale(1);
+	}
+	.photography {
+		background: url(https://media.istockphoto.com/vectors/abstract-linear-emblemtype-wave-flow-emblem-symbol-motion-stream-vector-id684523324?s=2048x2048);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.webdesign {
+		background: url(https://media.istockphoto.com/vectors/-vector-id849249752?s=2048x2048);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.print {
+		background: url(https://media.istockphoto.com/vectors/vector-illustration-abstract-colorful-triangle-vector-id680665012?s=2048x2048);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.our-projects > div img{
+		display: none;
+	}
+	.open-project {
+		background: #56B3DF none repeat scroll 0 0;
+		bottom: 0;
+		color: #fff;
+		font-weight: bold;
+		left: 0;
+		position: absolute;
+		right: 0;
+		transform: translateY(160px);
+		transition: 0.3s all ease;
+		text-align: left;
+	}
 
-.our-projects > div:hover .open-project{
-  transform: translateY(0);
-      transition: 0.3s all ease;
-}
-.our-projects > div img {
-	 transition: all 0.3s ease 0s;
-}
-.our-projects > div:hover img {
-    transform: translateY(-60px);
-    transition: all 0.3s ease 0s;
-}
+	.open-project > span {
+		display: inline-block;
+		padding: 18px;
+	}
+	.open-project > a {
+		background: #f8f8f8 none repeat scroll 0 0;
+		color: #111;
+		float: right;
+		height: 60px;
+		text-align: center;
+		width: 60px;
+	}
+	.open-project a i.fas {
+		padding: 22px 0;
+	}
+
+	.our-projects > div:hover .open-project{
+		transform: translateY(0);
+		transition: 0.3s all ease;
+	}
+	.our-projects > div img {
+		transition: all 0.3s ease 0s;
+	}
+	.our-projects > div:hover img {
+		transform: translateY(-60px);
+		transition: all 0.3s ease 0s;
+	}
 	/*------
 	RESPONSIVE CSS
 	------ */
