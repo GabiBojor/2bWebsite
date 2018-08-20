@@ -1,5 +1,5 @@
   $(document).ready(function(){
-$('.projects-menu > a').click(function(e){
+       $('.projects-menu > a').click(function(e){
       e.preventDefault();
       $('.projects-menu > a').removeClass('active-btn')
       $(this).addClass('active-btn');

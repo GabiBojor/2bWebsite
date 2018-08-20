@@ -701,45 +701,19 @@
 		color: #fff;
 		transition: 0.8s all ease;
 	}
-	.our-projects{
-		min-height: 300px;
-	}
+.our-projects{
+	display: none;
+}
+.our-projects.all {
+    display: block;
+}
 	.our-projects > div {
 		display: inline-block;
-		min-height: 300px;
-		margin: 0 -2px;
 		overflow: hidden;
+		margin: 0 -2px;
 		vertical-align: top;
 		width: 33.4%;
-		transition: 0.8s all ease;
 		position: relative;
-	}
-
-	.our-projects > div.hidden-project {
-		height: 0;
-		width: 0;
-		transform: scale(0);
-	}
-	.our-projects > div.shown-project {
-		transform: scale(1);
-	}
-	.photography {
-		background: url(https://media.istockphoto.com/vectors/abstract-linear-emblemtype-wave-flow-emblem-symbol-motion-stream-vector-id684523324?s=2048x2048);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	.webdesign {
-		background: url(https://media.istockphoto.com/vectors/-vector-id849249752?s=2048x2048);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	.print {
-		background: url(https://media.istockphoto.com/vectors/vector-illustration-abstract-colorful-triangle-vector-id680665012?s=2048x2048);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	.our-projects > div img{
-		display: none;
 	}
 	.open-project {
 		background: #56B3DF none repeat scroll 0 0;
@@ -749,7 +723,7 @@
 		left: 0;
 		position: absolute;
 		right: 0;
-		transform: translateY(160px);
+		transform: translateY(60px);
 		transition: 0.3s all ease;
 		text-align: left;
 	}
