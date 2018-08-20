@@ -393,7 +393,6 @@
 	.home-order .v-align{
 		max-width: 100%;
 		margin: 0 auto;
-		width: 1400px;
 	}
 	.v-align .row {
     display: flex;
@@ -403,24 +402,27 @@
 		color: white;
 		font-weight: bold;
 		font-size: 30px;
-		display: block;
 	}
-
-	.home-order-title h4{
-		text-transform: uppercase;
-		font-weight: bold;
-		letter-spacing: 2px;
-		font-size: 32px;
-		margin: 0;
-		color: #56B3DF;
-	}
-	.home-order-title h6{
-		color: #ccc;
-		font-weight: 100;
-		letter-spacing: 2px;
-		font-size: 25px;
-		margin: 0;
-	}
+.home-order-title {
+    width: 600px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.home-order-title h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 49px;
+    margin: 0;
+    color: #56B3DF;
+}
+.home-order-title h6 {
+    color: #244859;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin: 0;
+}
 	.home-order select {
 		border: 1px solid #56b3df;
 		border-width: 0 0 1px 0;
