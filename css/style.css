@@ -387,29 +387,40 @@
 		background-position: center;
 		min-height: 350px;
 		position: relative;
-		text-align: center;
 		color: white;
 
 	}
 	.home-order .v-align{
-		width: 600px;
 		max-width: 100%;
 		margin: 0 auto;
+		width: 1400px;
 	}
+	.v-align .row {
+    display: flex;
+    align-items: center;
+}
 	.home-order span{
 		color: white;
 		font-weight: bold;
 		font-size: 30px;
+		display: block;
 	}
 
-	.home-order h4{
+	.home-order-title h4{
 		text-transform: uppercase;
 		font-weight: bold;
 		letter-spacing: 2px;
 		font-size: 32px;
 		margin: 0;
+		color: #56B3DF;
 	}
-
+	.home-order-title h6{
+		color: #ccc;
+		font-weight: 100;
+		letter-spacing: 2px;
+		font-size: 25px;
+		margin: 0;
+	}
 	.home-order select {
 		border: 1px solid #56b3df;
 		border-width: 0 0 1px 0;
