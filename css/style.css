@@ -381,7 +381,7 @@
 		padding: 6px 12px;
 	}
 	.home-order {
-		background: url(../images/home-order3.jpg);
+		background: url(../images/home-order.jpg);
 		background-size: cover;
 		background-size: no-repeat;
 		min-height: 350px;
@@ -701,11 +701,19 @@
 		color: #fff;
 		transition: 0.8s all ease;
 	}
-.our-projects{
-	display: none;
+
+  .projects-wrapper {
+  	position: relative;
+  }
+.our-projects {
+/*    transform: scale(0, 0);*/
+    transition: 1s all;
+display: none;
+
 }
 .our-projects.all {
-    display: block;
+  	/*transform: scale(1,1);*/
+  display: block;
 }
 	.our-projects > div {
 		display: inline-block;
@@ -714,6 +722,19 @@
 		vertical-align: top;
 		width: 33.4%;
 		position: relative;
+	}
+	.our-projects.hidden-project{
+		/*transform: scale(0, 0);*/
+		/*opacity: 0;*/
+		transition: 1s all ease-out;
+		visibility: hidden;
+	
+	}
+	.our-projects.shown-project{
+		/*transform: scale(1,1);*/
+		/*opacity: 1;*/
+		transition: 1s all ease-in;
+
 	}
 	.open-project {
 		background: #56B3DF none repeat scroll 0 0;

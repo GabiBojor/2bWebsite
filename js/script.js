@@ -4,10 +4,8 @@
       $('.projects-menu > a').removeClass('active-btn')
       $(this).addClass('active-btn');
       var link = $(this).attr('rel');
-        $('.our-projects > div').addClass('hidden-project');
-        $('.our-projects > div').removeClass('shown-project');
-        $('div.' + link).removeClass('hidden-project');
-        $('div.' + link).addClass('shown-project');
+        $('.our-projects').fadeOut();
+        $('div.' + link).fadeIn();
 
     })
     if($('.order-wrapper').length > 0){
