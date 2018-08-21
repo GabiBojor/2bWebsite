@@ -452,19 +452,15 @@
 		margin: 50px 0 50px 5px;
 		color: #fff;
 		font-weight: 900;
-		font-size: 30px;
 		padding: 0 0 10px;
 		vertical-align: middle;
 		width: 250px;
-		color: #56B3DF;
 		color: rgba(0,0,0,0);
-		text-shadow: 0 0 0 #56B3DF;		
 		outline: none;
 	}
 	.order-section select > option.small-select{
 		font-size: 18px;
 		line-height: 28px;
-		color: #56B3DF;
 	}
 
 	
