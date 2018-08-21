@@ -727,7 +727,7 @@
 	.portfolio-banner{
 		background: url(../images/portfolioheader.jpg) no-repeat center center / cover;
 	}
-	.portfolio-banner h1 {
+	.banner_title {
 		font-size: 140px;
 		font-weight: 900;
 		letter-spacing: 30px;
