@@ -179,14 +179,12 @@
 	.pad{
 		padding: 100px 0;
 	}
+	
 	.banner{
-		background-position: center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover !important;
-		background-repeat: no-repeat;
 		height: 100vh;
+	}
+	.home-banner{
+		background: url('../images/banner.jpg') no-repeat center center / cover;
 	}
 	.anchor{
 		position: absolute;
@@ -197,9 +195,7 @@
 		font-size: 40px;
 		line-height: 40px;
 	}
-	.home-banner{
-		background-image: url('../images/banner.jpg');
-	}
+	
 	.home-banner .v-align{
 		overflow: hidden;
 	}
@@ -716,7 +712,7 @@
 	}
 	/*-- portfolio --*/
 	.portfolio-banner{
-		background: url(../images/portfolioheader.jpg);
+		background: url(../images/portfolioheader.jpg) no-repeat center center / cover;
 	}
 	.portfolio-banner h1 {
     font-size: 140px;
