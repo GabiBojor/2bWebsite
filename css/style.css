@@ -157,9 +157,9 @@
 		background: #244859;
 		padding: 6px 12px;
 	}
-		ul#nav .special-btn a:hover{
-			color: #56B3DF !important;
-		}
+	ul#nav .special-btn a:hover{
+		color: #56B3DF !important;
+	}
 
 
 
@@ -179,7 +179,7 @@
 	.pad{
 		padding: 100px 0;
 	}
-	
+
 	.banner{
 		height: 100vh;
 	}
@@ -195,7 +195,7 @@
 		font-size: 40px;
 		line-height: 40px;
 	}
-	
+
 	.home-banner .v-align{
 		overflow: hidden;
 	}
@@ -441,15 +441,16 @@
 		background-size: 15px auto;
 		margin: 50px 0 50px 5px;
 		color: #fff;
-		font-weight: 100;
-		font-size: 20px;
+		font-weight: 900;
+		font-size: 30px;
 		padding: 0 0 10px;
 		vertical-align: middle;
-		width: 200px;
-		color: #fff;
+		width: 250px;
+		color: #56B3DF;
 		color: rgba(0,0,0,0);
-		text-shadow: 0 0 0 #fff;
+		text-shadow: 0 0 0 #56B3DF;		
 	}
+	
 	.overlay{
 		display: none;
 		position: fixed;
@@ -715,13 +716,13 @@
 		background: url(../images/portfolioheader.jpg) no-repeat center center / cover;
 	}
 	.portfolio-banner h1 {
-    font-size: 140px;
-    font-weight: 900;
-    letter-spacing: 30px;
-}
-.portfolio-banner .row > div {
-    padding: 0;
-}
+		font-size: 140px;
+		font-weight: 900;
+		letter-spacing: 30px;
+	}
+	.portfolio-banner .row > div {
+		padding: 0;
+	}
 	.projects-menu {
 		margin: 100px 0;
 	}
@@ -795,16 +796,13 @@
 	RESPONSIVE CSS
 	------ */
 	@media screen and (-webkit-min-device-pixel-ratio:0){
-		.order-section select{	
 		
-			color: #56B3DF;
-			text-shadow: 0 0 0;
-		}
+		
 	}
 	@media (max-width: 1920px){
 		.order-wrapper {
-    padding-bottom: 74px;
-}
+			padding-bottom: 74px;
+		}
 	}
 	@media (max-width: 1440px){
 
