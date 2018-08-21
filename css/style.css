@@ -460,7 +460,9 @@
 	.order-section select > option.small-select{
 	
 		font-size: 18px;
-		color: blue;
+			color: #56B3DF;
+		color: rgba(0,0,0,0);
+		text-shadow: 0 0 0 #56B3DF;	
 	}
 
 	
