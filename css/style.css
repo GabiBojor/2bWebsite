@@ -782,8 +782,9 @@
 	RESPONSIVE CSS
 	------ */
 @media screen and (-webkit-min-device-pixel-ratio:0){
-body{
-	display: none;
+.order-section select{
+	color: #56B3DF;
+	font-weight: bold;
 }
 }
 	@media (max-width: 1440px){
