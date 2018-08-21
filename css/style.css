@@ -156,9 +156,16 @@
 	.special-btn{
 		background: #244859;
 		padding: 6px 12px;
+		border-radius: 10px;
+		transition: 0.3s all ease;
 	}
-	ul#nav .special-btn a:hover{
+	.special-btn:hover{
+		background: #fff;
+		transition: 0.3s all ease;
+	}
+	ul#nav .special-btn a:hover, ul#nav .special-btn:hover a{
 		color: #56B3DF !important;
+		transition: 0.3s all ease;
 	}
 
 
@@ -450,6 +457,11 @@
 		color: rgba(0,0,0,0);
 		text-shadow: 0 0 0 #56B3DF;		
 	}
+	.order-section select > option.small-select{
+		display: none;
+		font-size: 0;
+	}
+
 	
 	.overlay{
 		display: none;
@@ -533,7 +545,7 @@
 
 	/*-- about --*/
 	.about-banner{
-		background: url(../images/about-us.png);
+		background: url(../images/about-us.png) no-repeat center center / cover;
 	}
 	.about-banner h2{
 		font-weight: bold;
