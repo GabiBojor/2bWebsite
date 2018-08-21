@@ -22,6 +22,9 @@
 		outline: none;
 		color: #fff;
 	}
+	*:focus {
+		outline:none;
+	}
 	.btn{
 		text-transform: uppercase;
 		padding: 10px 30px;
