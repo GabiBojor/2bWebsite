@@ -16,6 +16,8 @@
     <script src="js/script.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/bootstrap.main.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -56,10 +58,7 @@
                         <a href="about-us.html">Despre Noi</a>
                       </li>
                       <li class="">
-                        <a href="/">Portofoliu</a>
-                      </li>
-                      <li class="">
-                        <a href="/">Ce facem?</a>
+                        <a href="portfolio.html">Portofoliu</a>
                       </li>
                       <li class="">
                         <a href="#contact-us">Contact</a>
@@ -90,132 +89,85 @@
 
         </div>
       </div>
+       <div class="anchor">
+        <a href="#anchor">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
     </div>
-    <div class="  center pad">
+    <div id="anchor"></div>
+    <div class="center" >
         <div id="our-projects">
-          <div class="projects-menu">
-            <a href="" class="active-btn" rel="all">All</a>
-            <a href="" rel="webdesign">Webdesign</a>
-            <a href="" rel="print">Print</a>
-            <a href="" rel="photography">Photography</a>
-          </div>
+          <ul class="projects-menu simplefilter">
+           <li class="active-btn" data-filter="all">All</li>
+             <li data-filter="webdesign">Webdesign</li>
+             <li data-filter="print">Print</li>
+             <li data-filter="photography">Photography</li>
+          </ul>
+      
         </div>
-    <div class="projects-wrapper">
-        <div class="our-projects all">
-        <div class="project">
+    <div class="projects-wrapper filtr-container">
+
+        <div class="project filtr-item" data-category="webdesign">
           <img src="images/etradlogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-       <div class="project">
+       <div class="project filtr-item" data-category="photography">
           <img src="images/aripaulogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-          <div class="project">
-        <img src="images/bcbociu.jpg" alt="">
+            <div class="project filtr-item" data-category="print">
+          <img src="images/aripaulogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
 
-          <div class="project">
+          <div class="project filtr-item" data-category="photography">
         <img src="images/dpclogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-           <div class="project">
+            <div class="project filtr-item" data-category="webdesign">
         <img src="images/dpcbc.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-         <div class="project">
+         <div class="project filtr-item" data-category="photography">
         <img src="images/blanalogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-
-      </div>
-        <div class="our-projects webdesign">
-        <div class="project">
+  
+         <div class="project filtr-item" data-category="print">
           <img src="images/etradlogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-       <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
+       <div class="project filtr-item" data-category="print">
+          <img src="images/etradlogo.jpg" alt="">
           <div class="open-project">
             <span>PROJECT NAME</span>
             <a href=""><i class="fas fa-share"></i></a>
           </div>
         </div>
-         <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-      </div>
-          <div class="our-projects print">
-        <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-       <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-         <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-      </div>
-        <div class="our-projects photography">
-        <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-       <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-         <div class="project">
-          <img src="https://media.istockphoto.com/vectors/travel-tourism-holidays-and-pleasure-vector-design-vector-id678866340?s=2048x2048" alt="">
-          <div class="open-project">
-            <span>PROJECT NAME</span>
-            <a href=""><i class="fas fa-share"></i></a>
-          </div>
-        </div>
-      </div>
+ 
+       
       </div>
         </div>
         <div class="order-section">
