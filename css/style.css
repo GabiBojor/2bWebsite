@@ -693,7 +693,7 @@
 	#check input {
 		margin: 0;
 	}
-	.step .row > div.padding-left {
+	.step .row .padding-left {
     padding-left: 15px;
 }
 	.checkboxes input:nth-of-type(2){
