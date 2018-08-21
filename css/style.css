@@ -713,8 +713,13 @@
 	}
 	/*-- portfolio --*/
 	.portofolio-banner{
-		background: url(../images/porofolioheader.jpg);
+		background: url(../images/portfolioheader.jpg);
 	}
+	.portofolio-banner h1 {
+    font-size: 180px;
+    font-weight: bold;
+    letter-spacing: 30px;
+}
 	.projects-menu {
 		margin: 100px 0;
 	}
