@@ -712,8 +712,11 @@
 		opacity: 0.9;
 	}
 	/*-- portfolio --*/
+	.portofolio-banner{
+		background: url(../images/porofolioheader.jpg);
+	}
 	.projects-menu {
-		margin: 100px 0 50px;
+		margin: 100px 0;
 	}
 	.projects-menu > li {
 		color: #7f7f7f;
