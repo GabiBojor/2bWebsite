@@ -458,8 +458,9 @@
 		text-shadow: 0 0 0 #56B3DF;		
 	}
 	.order-section select > option.small-select{
-		display: none;
-		font-size: 0;
+	
+		font-size: 10px;
+		color: blue;
 	}
 
 	
