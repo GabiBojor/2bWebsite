@@ -462,9 +462,9 @@
 		outline: none;
 	}
 	.order-section select > option.small-select{
-	
 		font-size: 18px;
-			color: #56B3DF;
+		line-height: 28px;
+		color: #56B3DF;
 	}
 
 	
