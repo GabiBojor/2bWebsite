@@ -545,7 +545,7 @@
 
 	/*-- about --*/
 	.about-banner{
-		background: url(../images/about-us.png) no-repeat center center / cover;
+		background: url(../images/about-us.jpg) no-repeat center center / cover;
 	}
 	.about-banner h2{
 		font-weight: bold;
