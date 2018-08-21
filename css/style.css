@@ -157,6 +157,9 @@
 		background: #244859;
 		padding: 6px 12px;
 	}
+		ul#nav .special-btn a:hover{
+			color: #56B3DF !important;
+		}
 
 
 
