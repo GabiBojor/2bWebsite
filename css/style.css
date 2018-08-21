@@ -800,6 +800,11 @@
 			text-shadow: 0 0 0 #56B3DF;
 		}
 	}
+	@media (max-width: 1920px){
+		.order-wrapper {
+    padding-bottom: 74px;
+}
+	}
 	@media (max-width: 1440px){
 
 	}
