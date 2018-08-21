@@ -637,14 +637,12 @@
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
-		width: 30%;
+		width: 33%;
 		opacity: 0;
 	}
 	.order-form > div.first-section {
 		background: #e0e0e0;
 		border-top: 3px solid #244859;
-
-		width: 30%;
 		z-index: 999;
 		opacity: 1;
 	}
@@ -674,14 +672,14 @@
 	.data{
 		min-height: 350px;
 	}
-	.data input, .logo-info input{
+	.data input, .logo-info input, .step select{
 		margin-bottom: 15px;
 	}
 
 	.logo-info textarea{
 		min-height: 100px;
 	}
-	.step  input.inp, .logo-info textarea{
+	.step  input.inp, .logo-info textarea, .step  select{
 		border-radius: 5px;
 		border-style: none;
 		padding: 7px 10px;
@@ -689,12 +687,14 @@
 		font-size: 14px;
 		width: 100%;
 	}
+	.step .row > div{
+		padding: 0;
+	}
 	#check input {
 		margin: 0;
 	}
-
-	.step-buttons > div{
-		padding: 0;
+	.host{
+		padding-left: 15px;
 	}
 	.order-btn{
 		padding: 7px 10px;
