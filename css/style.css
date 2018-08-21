@@ -796,9 +796,9 @@
 	------ */
 	@media screen and (-webkit-min-device-pixel-ratio:0){
 		.order-section select{	
-			font-weight: bold;
-			color: rgba(0,0,0,0);
-			text-shadow: 0 0 0 #56B3DF;
+		
+			color: #56B3DF;
+			text-shadow: 0 0 0;
 		}
 	}
 	@media (max-width: 1920px){
