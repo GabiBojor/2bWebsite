@@ -16,10 +16,13 @@
     <script src="js/script.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/bootstrap.main.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/default.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
@@ -29,7 +32,7 @@
   </head>
 
   <body>
-     <div class="container-top">
+    <div class="container-top change-top">
       <div class="top-wrap">
         <div class="custom-container">
           <div class="logo">
@@ -63,187 +66,107 @@
                       </li>
                       <li class="special-btn">
                        <a href="order.html">Comanda</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+             </nav>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="custom-container pad">
+    <div class="order-section order-page">
+   
+          <h1>Plaseaza-ti comanda in doar cativa pasi simplii!</h1>
+          <h6>Spune-ne cum te putem ajuta.</h6>
+     
+             <div class="row">
+        <div class="col-md-8">
+               <span>Am nevoie de</span>
+          <select id="order-input">
+            <option value="0" class="blue">Alege din lista.</option>
+            <option value="/website-order.html" class="small-select blue">Website</option>
+            <option value="/logo-order.html" class="small-select blue">Logo</option>
+            <option value="/design-order.html" class="small-select blue">Design</option>
+          </select>
+          <div>
+            <input type="submit" class="btn" value="continua" onclick="getOrder()">
           </div>
         </div>
-      </div>
+        <div class="col-md-4">
+    <div class="logo-slider">
+      <ul class="slides">
+        <li>
+          <img src="images/blanalogo.jpg" alt="">
+          <span class="nothing"></span>
+        </li>
+        <li>
+          <img src="images/dpcbc.jpg" alt="">
+          <span class="nothing"></span>
+        </li>
+        <li>
+          <img src="images/blanalogo.jpg" alt="">
+          <span class="nothing"></span>
+        </li>
+        <li>
+           <img src="images/dpcbc.jpg" alt="">
+          <span class="nothing"></span>
+        </li>
+        <li>
+          <img src="images/blanalogo.jpg" alt="">
+          <span class="nothing"></span>
+        </li>
+      </ul>
     </div>
-
-    <div class="custom-container pad">
-    <div class="order-wrapper">
-
-        <!-- Order - Title+Subtitle -->
-        <h1>Mai avem nevoie de câteva informatii</h1>
-        <h6 class="order-name">Logo Design</h6>
-        <form action="" class="order-form">
-
-          <!-- Order - 1st Section -->
-          <div class="step first-section active-section">
-
-            <div id="step-title">
-              <span class="blue">Pasul 1:</span>
-              <b>Date Personale</b>
-            </div>
-
-            <!-- Order - inputs -->
-            <div class="data">
-              <h6>Nume Complet:</h6>
-              <input type="text" name="name" value="" placeholder="e.g Popescu Ioan" class="inp">
-
-              <h6>Email*</h6>
-              <input type="text" name="email" value="" placeholder="nume@gmail.com"  class="inp">
-
-              <h6>Telefon</h6>
-              <input type="text" name="" value="" class="inp">
-
-              <div id="check"><input type="checkbox" name="" value=""> Am verificat ca toate datele sa fie introduse corect</div>
-
-            </div>
-            <div class="row step-buttons">
-              <div class="col-md-6">
-                <a href="">Inapoi</a>
-              </div>
-              <div class="col-md-6 right">
-                <a href="" class="order-btn next-step">Urmatorul Pas</a>
-              </div>
-            </div>
-
-
-
-          </div>
-
-          <!-- Order - 2nd Section -->
-          <div class="step second-section">
-
-            <div id="step-title">
-              <span class="blue">Pasul 2:</span>
-              <b>Informatii Logo</b>
-            </div>
-<div class="data">
-            <div class="logo-info">
-              <h6>Numele care sa apara in logo*</h6>
-              <input type="text" name="name" value="" placeholder="e.g Logo Company" class="inp">
-
-              <h6>Slogan (daca exista)</h6>
-              <input type="text" name="email" value="" placeholder="e.g slogan"  class="inp">
-
-              <h6>Informatii despre compania ta</h6>
-              <textarea name="name"></textarea>
-            </div>
-            </div>
-            <div class="row step-buttons">
-              <div class="col-md-6">
-
-              </div>
-              <div class="col-md-6 right">
-                <a href="" class="order-btn next-step">Urmatorul Pas</a>
-              </div>
-            </div>
-
-
-          </div>
-
-          <!-- Order - 3rd Section -->
-          <div class="step third-section">
-
-            <div id="step-title">
-              <span class="blue">Pasul 3:</span>
-              <b>Aspect Logo</b>
-            </div>
-<div class="data">
-            <div class="logo-info">
-              <h6>Culori</h6>
-              <input type="text" name="name" value="" placeholder="e.g rosu, verde, gri, etc." class="inp">
-              <div class="type-of-logo">
-                <span>Alege logo preferat:</span>   
-  <label>
-     <input type="checkbox" name="" value=""/>
-     <img src="https://dummyimage.com/100/000/fff">
-  </label>
-  
-  <label>
-    <input type="checkbox" name="" value=""/>
-     <img src="https://dummyimage.com/100/000/fff">
-  </label>
-  
-  <label>
-    <input type="checkbox" name="" value=""/>
-      <img src="https://dummyimage.com/100/000/fff">
-  </label>
-  
-  <label>
-     <input type="checkbox" name="" value=""/>
-    <img src="https://dummyimage.com/100/000/fff">
-  </label>
-    <label>
-     <input type="checkbox" name="" value=""/>
-    <img src="https://dummyimage.com/100/000/fff">
-  </label>
-    <label>
-     <input type="checkbox" name="" value=""/>
-    <img src="https://dummyimage.com/100/000/fff">
-  </label>
-         
-              </div>
-            </div>
-            </div>
-            <div class="row step-buttons">
-              <div class="col-md-6">
-              </div>
-              <div class="col-md-6 right">
-                <a href="" class="order-btn next-step">Finalizare</a>
-              </div>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
 
-
+    </div>
 
   </div>
-    <div class="footer-wrapper">
-      <div class="custom-container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="social-media">
-              <a href="">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="">
-                <i class="far fa-envelope"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 right">
-            &copy;
-            <script type="text/javascript">
-              document.write(new Date().getFullYear());
-            </script>
-            2B-studios. All Rights Reserved
-          </div>
 
+
+</div>
+<div class="footer-wrapper">
+  <div class="custom-container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="social-media">
+          <a href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="">
+            <i class="far fa-envelope"></i>
+          </a>
         </div>
-
       </div>
+      <div class="col-md-6 right">
+        &copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+        2B-studios. All Rights Reserved
+      </div>
+
     </div>
 
+  </div>
+</div>
 
 
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-  </body>
 
-  </html>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+</body>
+
+</html>

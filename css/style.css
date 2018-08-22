@@ -466,8 +466,8 @@
 		font-size: 18px;
 		line-height: 28px;
 	}
-	
-	
+
+
 	.overlay{
 		display: none;
 		position: fixed;
@@ -694,8 +694,8 @@
 		margin: 0;
 	}
 	.step .row .padding-left {
-    padding-left: 15px;
-}
+		padding-left: 15px;
+	}
 	.checkboxes input:nth-of-type(2){
 		margin-left: 10px;
 		margin-bottom: 0;
@@ -813,12 +813,47 @@
 		transform: translateY(-60px);
 		transition: all 0.3s ease 0s;
 	}
+	/*--  simple order page --*/
+	.order-page {
+    background: transparent;
+    min-height: auto;
+    margin: 158.5px 0;
+}
+	.order-page h1{
+		color: #244859;
+		font-size: 30px;
+		line-height: 25px;
+	}
+	.order-page h6{
+		font-size: 30px;
+		line-height: 25px;
+		color: #56B3DF;
+		font-weight: bold;
+	}
+	.order-page span {
+		color: #244859;
+		   font-size: 45px;
+		   vertical-align: middle;
+	}
+
+	.order-section select {
+    margin: 100px 0;
+    font-size: 45px;
+    width: 400px;
+    padding-bottom: 0;
+}
+.order-page .row > div:first-child {
+    padding-left: 0;
+}
+.order-section .flex-control-nav{
+	display: none;
+}
 	/*------
 	RESPONSIVE CSS
 	------ */
 	@media screen and (-webkit-min-device-pixel-ratio:0){
-		
-		
+
+
 	}
 	@media (max-width: 1920px){
 		.order-wrapper {
