@@ -836,11 +836,10 @@
 		   vertical-align: middle;
 	}
 
-	.order-section select {
+  .order-page .order-section select {
     margin: 100px 0;
     font-size: 45px;
     width: 400px;
-    padding-bottom: 0;
 }
 .order-page .row > div:first-child {
     padding-left: 0;
@@ -852,7 +851,9 @@
 	RESPONSIVE CSS
 	------ */
 	@media screen and (-webkit-min-device-pixel-ratio:0){
-
+.order-section select{
+	padding-bottom: 10px;
+}
 
 	}
 	@media (max-width: 1920px){
