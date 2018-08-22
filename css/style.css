@@ -156,7 +156,7 @@
 	ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 		color: #244859 !important;
 	}
-	.special-btn{
+ 	ul#nav .special-btn, ul#nav_mobile .special-btn{
 		background: #244859;
 		padding: 6px 12px;
 		border-radius: 10px;
@@ -166,7 +166,7 @@
 		background: #fff;
 		transition: 0.3s all ease;
 	}
-	ul#nav .special-btn a:hover, ul#nav .special-btn:hover a{
+	ul#nav .special-btn:hover{
 		color: #56B3DF !important;
 		transition: 0.3s all ease;
 	}
@@ -188,6 +188,11 @@
 	}
 	.pad{
 		padding: 100px 0;
+	}
+
+	.vertical-align{
+		display: flex;
+		align-items: center;
 	}
 
 	.banner{
@@ -459,7 +464,7 @@
 		width: 250px;
 		color: #56B3DF;
 		color: rgba(0,0,0,0);
-		text-shadow: 0 0 0 #56B3DF;		
+		text-shadow: 0 0 0 #56B3DF;
 		outline: none;
 	}
 	.order-section select > option.small-select{
@@ -719,16 +724,16 @@
 		width: 32.3%;
 		margin-bottom: 5px;
 	}
-	.type-of-logo label > input{ 
-		visibility: hidden; 
-		position: absolute; 
+	.type-of-logo label > input{
+		visibility: hidden;
+		position: absolute;
 		margin-bottom: 0;
 	}
 	.type-of-logo label > input + img{
 		cursor:pointer;
 		border:2px solid transparent;
 	}
-	.type-of-logo label > input:checked + img{ 
+	.type-of-logo label > input:checked + img{
 		border:2px solid #56B3DF;
 		opacity: 0.9;
 	}
