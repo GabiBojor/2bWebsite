@@ -853,15 +853,7 @@
 	RESPONSIVE CSS
 	------ */
 	@media screen and (-webkit-min-device-pixel-ratio:0){
-.order-section select{
-	padding-bottom: 10px;
-}
-.order-section select{
-			font-size: 18px;
-		}
-		.order-page.order-section select{
-			font-size: 18px;
-		}
+
 
 	}
 	@media (max-width: 1920px){
