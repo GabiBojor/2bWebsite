@@ -456,6 +456,7 @@
 		background-size: 15px auto;
 		margin: 50px 0 50px 5px;
 		color: #fff;
+		font-size: 30px;
 		font-weight: 900;
 		padding: 0 0 10px;
 		vertical-align: middle;
@@ -838,7 +839,6 @@
 
   .order-page.order-section select {
     margin: 100px 0;
-    font-size: 45px;
     width: 400px;
     padding-bottom: 0;
 }
@@ -860,6 +860,9 @@
 	@media (max-width: 1920px){
 		.order-wrapper {
 			padding-bottom: 74px;
+		}
+		.order-section select{
+			font-size: 18px;
 		}
 	}
 	@media (max-width: 1440px){
