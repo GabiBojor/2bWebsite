@@ -841,6 +841,7 @@
     margin: 100px 0;
     width: 400px;
     padding-bottom: 0;
+    font-size: 40px;
 }
 .order-page .row > div:first-child {
     padding-left: 0;
@@ -856,6 +857,9 @@
 	padding-bottom: 10px;
 }
 .order-section select{
+			font-size: 18px;
+		}
+		.order-page.order-section select{
 			font-size: 18px;
 		}
 
