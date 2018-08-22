@@ -855,15 +855,16 @@
 .order-section select{
 	padding-bottom: 10px;
 }
+.order-section select{
+			font-size: 18px;
+		}
 
 	}
 	@media (max-width: 1920px){
 		.order-wrapper {
 			padding-bottom: 74px;
 		}
-		.order-section select{
-			font-size: 18px;
-		}
+
 	}
 	@media (max-width: 1440px){
 
