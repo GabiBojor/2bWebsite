@@ -841,10 +841,11 @@
 		   vertical-align: middle;
 	}
 
-  .order-page .order-section select {
+  .order-page.order-section select {
     margin: 100px 0;
     font-size: 45px;
     width: 400px;
+    padding-bottom: 0;
 }
 .order-page .row > div:first-child {
     padding-left: 0;
