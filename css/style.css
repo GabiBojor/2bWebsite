@@ -119,6 +119,9 @@
 		padding: 20px 15px;
 		background: #244859;
 	}
+	.footer-wrapper .row > div {
+    padding: 0;
+}
 	.social-media a{
 		margin-right: 5px;
 		vertical-align: middle;
@@ -141,7 +144,7 @@
 	}
 	.scrolled-top #main_nav, .active-top #main_nav{
 		transition: 0.5s all ease;
-		top: 8px;
+		top: 13px;
 	}
 	ul#nav > li > a, ul#nav_mobile > li > a {
 		color: #fff !important;
@@ -510,6 +513,9 @@
 	}
 	.close-alert i {
 		color: #56B3DF;
+	}
+	.contact-us .row > div{
+		padding: 0;
 	}
 	.contact-us > b{
 		display: block;
