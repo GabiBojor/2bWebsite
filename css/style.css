@@ -1,6 +1,7 @@
 	/*------
 	GENERAL ELEMENTS
 	------*/
+
 	html, body {
 		font-family: 'Raleway', sans-serif;
 		color: #244859;
@@ -120,8 +121,8 @@
 		background: #244859;
 	}
 	.footer-wrapper .row > div {
-    padding: 0;
-}
+		padding: 0;
+	}
 	.social-media a{
 		margin-right: 5px;
 		vertical-align: middle;
@@ -159,7 +160,7 @@
 	ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 		color: #244859 !important;
 	}
- 	ul#nav .special-btn, ul#nav_mobile .special-btn{
+	ul#nav .special-btn, ul#nav_mobile .special-btn{
 		background: #244859;
 		padding: 6px 12px;
 		border-radius: 10px;
@@ -449,25 +450,111 @@
 		font-size: 24px;
 		margin: 0;
 	}
-	.order-section select {
-		border: 1px solid #56b3df;
-		border-width: 0 0 1px 0;
-		/*-webkit-appearance: none;*/
-		-moz-appearance: none;
-		appearance: none;
-		background: transparent url("../images/arrow.png") no-repeat scroll 100% center;
-		background-size: 15px auto;
-		margin: 50px 0 50px 5px;
-		color: #fff;
-		font-size: 30px;
+	.select-wrapper {
+		border-bottom: 4px solid #56b3df;
+		display: inline-block;
+		width: 350px;
+		margin: 20px 0;
+		background-color: transparent;
+		position: relative;
+		cursor: pointer;
+
+	}
+	.select-wrapper::before {
+		position: absolute;
+		content: '\f063';
+		font-family: 'Font Awesome 5 Free';
+		font-size: 2em;
 		font-weight: 900;
-		padding: 0 0 10px;
-		vertical-align: middle;
-		width: 250px;
+		color: #56b3df;
+		right: 20px;
+		top: calc(50% - 0.5em);
+	}
+	.select-wrapper.active::before {
+		transform: rotateX(-180deg);
+	}
+
+	.select_placeholder {
+		display: block;
+		padding: 0.2em 0.5em;
+		text-align: left;
+		pointer-events: none;
+		user-select: none;
+		visibility: visible;
+	}
+
+	.select-wrapper.active .select_placeholder {
+		visibility: hidden;
+	}
+
+	.select_placeholder::before {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 0.2em 0.5em;
+		content: attr(data-placeholder);
+		visibility: hidden;
+	}
+
+	.select-wrapper.active .select_placeholder::before {
+		visibility: visible;
+	}
+
+	.select_box {
+		position: absolute;
+		top: calc(100% + 4px);
+		left: -4px;
+		display: none;
+		list-style-type: none;
+		text-align: left;
+		font-size: 1em;
+		background-color: #FFF;
+		width: calc(100% + 8px);
+		box-sizing: border-box;
+	}
+
+	.select-wrapper.active .select_box {
+		display: block;
+		animation: fadeInUp 500ms;
+	}
+
+	span.select_box_options {
+		display: list-item;
 		color: #56B3DF;
-		color: rgba(0,0,0,0);
-		text-shadow: 0 0 0 #56B3DF;
-		outline: none;
+		padding: 0.5em 1em;
+		user-select: none;
+	}
+
+
+
+
+
+
+
+
+
+	@keyframes fadeInUp {
+		from {
+			opacity: 0;
+			transform: translate3d(0, 20px, 0);
+		}
+
+		to {
+			opacity: 1;
+			transform: none;
+		}
+	}
+
+	@keyframes fadeOut {
+		from {
+			opacity: 1;
+		}
+
+		to {
+			opacity: 0;
+		}
 	}
 
 
@@ -822,10 +909,10 @@
 	}
 	/*--  simple order page --*/
 	.order-page {
-    background: transparent;
-    min-height: auto;
-    margin: 158.5px 0;
-}
+		background: transparent;
+		min-height: auto;
+		margin: 158.5px 0;
+	}
 	.order-page h1{
 		color: #244859;
 		font-size: 30px;
@@ -839,22 +926,22 @@
 	}
 	.order-page span {
 		color: #244859;
-		   font-size: 45px;
-		   vertical-align: middle;
+		font-size: 45px;
+		vertical-align: middle;
 	}
 
-  .order-page.order-section select {
-    margin: 100px 0;
-    width: 400px;
-    padding-bottom: 0;
-    font-size: 40px;
-}
-.order-page .row > div:first-child {
-    padding-left: 0;
-}
-.order-section .flex-control-nav{
-	display: none;
-}
+	.order-page.order-section select {
+		margin: 100px 0;
+		width: 400px;
+		padding-bottom: 0;
+		font-size: 40px;
+	}
+	.order-page .row > div:first-child {
+		padding-left: 0;
+	}
+	.order-section .flex-control-nav{
+		display: none;
+	}
 	/*------
 	RESPONSIVE CSS
 	------ */
