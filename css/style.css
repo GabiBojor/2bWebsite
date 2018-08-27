@@ -453,7 +453,7 @@
 	.select-wrapper {
 		border-bottom: 4px solid #56b3df;
 		display: inline-block;
-		width: 350px;
+		width: 380px;
 		margin: 20px 0;
 		background-color: transparent;
 		position: relative;
@@ -525,6 +525,10 @@
 		color: #56B3DF;
 		padding: 0.5em 1em;
 		user-select: none;
+	}
+	span.select_box_options:hover{
+		background: #56B3DF;
+		color: #fff;
 	}
 
 
