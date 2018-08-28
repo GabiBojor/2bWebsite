@@ -17,7 +17,8 @@
   <script src="js/script.js"></script>
   <script src="js/smooth-scroll.js"></script>
   <script src="js/bootstrap.main.js"></script>
-  <script src="js/jquery.filterizr.min.js"></script>
+  <!-- <script src="js/jquery.filterizr.min.js"></script> -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.3.5/jquery.filterizr.min.js"></script>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +33,7 @@
 </head>
 
 <body>
+  <div class="shown-content">
   <div class="container-top">
     <div class="top-wrap">
       <div class="custom-container">
@@ -97,8 +99,7 @@
   </div>
   <div id="anchor"></div>
 
-  <div class="center">
-    <div id="our-projects">
+    <div id="our-projects" class="center">
       <ul class="projects-menu simplefilter">
         <li class="active-btn" data-filter="all">Toate</li>
         <li data-filter="web">Web Design</li>
@@ -116,7 +117,7 @@
         <img src="images/portofoliu/dpclogo.jpg" alt="">
         <div class="open-project">
           <span>DPC - Drum Proiect Consult</span>
-          <a href=""><i class="fas fa-share"></i></a>
+          <a href="" rel="dpc"><i class="fas fa-share"></i></a>
         </div>
       </div>
 
@@ -165,7 +166,7 @@
         <img src="images/portofoliu/etradlogo.jpg" alt="">
         <div class="open-project">
           <span>E-TRAD </span>
-          <a href=""><i class="fas fa-share"></i></a>
+          <a href="" rel="e-trad"><i class="fas fa-share"></i></a>
         </div>
       </div>
 
@@ -188,37 +189,43 @@
       </div>
 
     </div>
-  </div>
-  <div class="order-section">
-    <div class="v-align">
+
+
+     <div class="order-section">
+      <div class="v-align">
       <div class="row">
         <div class="col-md-6">
           <div class="order-section-title">
             <h6>
-                  Acum este mai usor sa comanzi!
-                </h6>
+              Acum este mai usor sa comanzi!
+            </h6>
             <h4>
-                  Cum te putem ajuta?
-                </h4>
+              Cum te putem ajuta?
+            </h4>
           </div>
         </div>
 
         <div class="col-md-6 center">
           <span>Am nevoie de</span>
-          <select id="order-input">
-                <option value="0" class="blue small-select">Alege din lista.</option>
-                 <option value="/website-order.html" class="small-select blue">Website</option>
+
+         <div class="select-wrapper">
+   <select id="order-input">
+            <option value="0" class="blue small-select">Alege din lista.</option>
+            <option value="/website-order.html" class="small-select blue">Website</option>
             <option value="/logo-order.html" class="small-select blue">Logo</option>
             <option value="/design-order.html" class="small-select blue">Design</option>
-              </select>
+          </select>
+</div>
+
+
           <div>
             <input type="submit" class="btn" value="continua" onclick="getOrder()">
           </div>
         </div>
       </div>
 
+      </div>
     </div>
-  </div>
   <div class="gray-bg" id="contact-us">
     <div class="custom-container pad">
       <form action="" class="contact-us">
@@ -282,7 +289,23 @@
 
     </div>
   </div>
-
+</div>
+  <div class="popup-wrapper">
+  <div class="portfolio-popup" id="dpc">
+    <div class="right">
+      <a href="" class="close-portfolio-popup">
+        X
+      </a>
+    </div>
+    test
+  </div>
+  <div class="portfolio-popup" id="e-trad">
+         <a href="" class="close-portfolio-popup">
+           X
+         </a>
+    tdsadsasda
+  </div>
+  </div>
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();
