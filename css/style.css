@@ -853,11 +853,11 @@
 	/*-- portfolio --*/
 	.shown-content{
 		    transform: scale(1);
-    transition: 1s all ease-in;
+    transition: 0.5s all ease-in;
 	}
 	.hidden-content.shown-content{
 		    transform: scale(0);
-    transition: 1s all ease-in;
+    transition: 0.5s all ease-in;
 	}
 	.portfolio-banner{
 		background: url(../images/portfolioheader.jpg) no-repeat center center / cover;
@@ -896,6 +896,7 @@
 		vertical-align: top;
 		width: 33.40%;
 		position: relative;
+		cursor: pointer;
 	}
 
 
@@ -916,7 +917,7 @@
 		display: inline-block;
 		padding: 18px;
 	}
-	.open-project > a {
+	.open-project > div {
 		background: #f8f8f8 none repeat scroll 0 0;
 		color: #111;
 		float: right;
@@ -924,7 +925,7 @@
 		text-align: center;
 		width: 60px;
 	}
-	.open-project a i.fas {
+	.open-project  i.fas {
 		padding: 22px 0;
 	}
 
@@ -950,13 +951,13 @@
     text-align: center;
     padding: 50px 100px;
     transform: scale(0);
-    transition: 0.8s all ease-in;
+    transition: 0.5s all ease-in;
     overflow: auto;
     max-height: 100vh;
 }
 .portfolio-popup.show-portfolio{
 	transform: scale(1);
-	    transition: 0.8s all ease-in;
+	    transition: 0.5s all ease-in;
 }
 a.close-portfolio-popup{
 	font-size: 50px;

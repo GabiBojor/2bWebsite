@@ -68,7 +68,7 @@ if($('.projects-wrapper').length > 0){
     $('.projects-menu > li').removeClass('active-btn')
     $(this).addClass('active-btn');
   })
-  $('.open-project > a').each(function() {
+  $('.project > a').each(function() {
       $(this).click(function(e) {
         e.preventDefault();       
         var link = $(this).attr('rel');
