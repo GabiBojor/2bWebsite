@@ -981,8 +981,11 @@ a.close-portfolio-popup{
 		color: #56B3DF;
 		font-weight: bold;
 	}
-	.order-page span {
+	.order-page > .row > div  span {
 		color: #244859;
+		font-size: 40px;
+	}
+	.order-page > .row > div > span {
 		font-size: 45px;
 		vertical-align: middle;
 	}
