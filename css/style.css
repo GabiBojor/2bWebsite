@@ -525,13 +525,12 @@
 	.select_box {
 		position: absolute;
 		top: calc(100% + 4px);
-		left: -4px;
 		display: none;
 		list-style-type: none;
 		text-align: left;
 		font-size: 1em;
 		background-color: #FFF;
-		width: calc(100% + 8px);
+		width: 100%;
 		box-sizing: border-box;
 	}
 
@@ -983,7 +982,6 @@ a.close-portfolio-popup{
 	}
 	.order-page > .row > div  span {
 		color: #244859;
-		font-size: 40px;
 	}
 	.order-page > .row > div > span {
 		font-size: 45px;
