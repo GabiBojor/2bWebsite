@@ -1,8 +1,9 @@
   $(document).ready(function(){
     if($('.testimonials-slider').length > 0){
       $('.testimonials-slider').flexslider({
-    animate: 'slide'
-  })
+        animate: 'slide',
+        slideshowSpeed: '2000'
+      })
     }
     if($('.select-wrapper').length > 0){
       $('.select-wrapper').each(function() {
@@ -69,17 +70,17 @@ if($('.projects-wrapper').length > 0){
     $(this).addClass('active-btn');
   })
   $('.project > a').each(function() {
-      $(this).click(function(e) {
-        e.preventDefault();       
-        var link = $(this).attr('rel');
-        $('.shown-content').addClass('hidden-content');
-        $('div#' + link).addClass('show-portfolio');
-      });
-});
+    $(this).click(function(e) {
+      e.preventDefault();       
+      var link = $(this).attr('rel');
+      $('.shown-content').addClass('hidden-content');
+      $('div#' + link).addClass('show-portfolio');
+    });
+  });
   $('.close-portfolio-popup').click(function(e){
-      e.preventDefault();     
-     $('.shown-content').removeClass('hidden-content');
-     $('.portfolio-popup').removeClass('show-portfolio');
+    e.preventDefault();     
+    $('.shown-content').removeClass('hidden-content');
+    $('.portfolio-popup').removeClass('show-portfolio');
   })
 }
 
@@ -128,9 +129,9 @@ $(".type-wrap").typed({
 
 
   function getOrder() {
-    var option_one = document.getElementById('order-input').value;
+    var option = document.getElementById('order-input').value;
     var alert_popup = '<div class="alert"><div class="right"><a class="close-alert" onclick="closePopup()"><i class="fas fa-times-circle"></i></a></div>PLease bla bla</div> <div class="overlay" onclick="closePopup()"></div> ';
-    if(option_one == 0){
+    if(option == 0){
       document.body.insertAdjacentHTML( 'beforeend', alert_popup );
       document.querySelector('.overlay').style.display = 'block';
       setTimeout(function(){
@@ -139,8 +140,7 @@ $(".type-wrap").typed({
       return false;
     }
     else{
-      location.href = option_one;
-
+      location.href = option;
     }
 
   }
